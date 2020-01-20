@@ -83,3 +83,7 @@ SELECT * FROM movies;
 SELECT show_time FROM movies WHERE title = 'Iron Man 2';
 UPDATE movies SET show_time = '20:45' where title = 'Iron Man 3';
 SELECT * FROM movies;
+
+-- Delete all movies where year is 2016
+DELETE FROM movies WHERE year = 2017;
+SELECT * FROM movies;
